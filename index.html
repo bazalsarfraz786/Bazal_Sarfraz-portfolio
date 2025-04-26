@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon/favicon-32x32-photoaidcom-cropped.png" type="image/x-icon">
+    <title>Bazal Sarfraz | Personal Portfolio</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init({    
+            publicKey: "t9Nx7rd2_9ll1DUyo",
+          });
+       })();
+    </script>
+
+    
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block" onclick="window.location.href= '#contact' " >Contact</button>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Bazal Sarfraz</span>
+          </h2>
+          <p class="text-muted">
+            I'm an exprienced Front-End Web Developer who builds responsive, user-friendly websites using HTML, CSS, and JavaScript. I focus on clean code and modern design to create seamless digital experiences.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill" onclick="window.location.href='https://bazalsarfraz786.github.io/Professional_Resume/', '_main' ">
+            Visit My Resume
+          </button>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/bazal.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          Provide Wide Range of <br />
+          Digital Services
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Design</h4>
+              <p class="text-muted">
+                Creating stunning, user-centric web designs that blend aesthetics with intuitive functionality for engaging digital experiences.
+              </p>
+              <a href="https://blog.udemy.com/what-is-web-design/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Search_DSA_GammaCatchall_NonP_la.EN_cc.ROW-English&campaigntype=Search&portfolio=ROW-English&language=EN&product=Course&test=&audience=DSA&topic=&priority=Gamma&utm_content=deal4584&utm_term=_._ag_169801645584_._ad_700876640599_._kw__._de_c_._dm__._pl__._ti_dsa-1456167871416_._li_9075177_._pd__._&matchtype=&gad_source=1&gbraid=0AAAAADROdO2qBuuq1cTdjv5TJScwkXmON&gclid=CjwKCAjwn6LABhBSEiwAsNJrjp7VG8-O-6U_1OXjMwwVfgAOgdLTU7ROOdWAIwcsghFiGYW6H2B4DBoC01gQAvD_BwE" class="link" target="_main">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon2.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Development</h4>
+              <p class="text-muted">
+                Delivering high-quality web development solutions—crafting responsive, fast, and visually appealing websites for seamless user experiences.
+              </p>
+              <a href="https://www.geeksforgeeks.org/web-development/" class="link" target="_main">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/database.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Databases</h4>
+              <p class="text-muted">
+                Skilled in database design & optimization, ensuring secure, scalable, and efficient data management for web applications.
+              </p>
+              <a href="https://www.holickycorporation.com/blog/the-purpose-of-a-database-in-web-application-development/" class="link" target="_main">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">HTML & CSS</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress javascript">
+                  <span class="progress-value javascript-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress database">
+                  <span class="progress-value database-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Databases(Oracle)</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3  ms-md-0">
+                <div class="circular-progress c">
+                  <span class="progress-value c-progress">0%</span>
+                </div>
+                <br>
+                <span class="text">C++</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <h3>Beautiful & Unique Digital Experiences</h3>
+            <p class="text-muted">
+              I craft beautiful & unique digital experiences using core web technologies like HTML, CSS, and JavaScript. I also work with databases (Oracle, MySQL) for structured data management and have foundational skills in C++ for problem-solving and logic building.
+            </p>
+            <p class="text-muted">
+              I am passionate about learning new technologies and continuously improving my skills to stay ahead in this ever-evolving field.
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <a
+                href="Resume.pdf"
+                download="Professional CV"
+                style="text-decoration: none;color: #fff;"
+                >Download CV</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small>Creative Work</small>
+        <h3>Check My Portfolio</h3>
+        <p style="color: red; text-align: center;">If you have issue in opening these projects then<a href="danger.html" target="_main" style="text-decoration: none;"> Click here!</a></p>
+      </div>
+      
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- here we will create custom attribute using data- for filtering -->
+        <button class="filter-item" data-filter="all">All</button>
+        <button class="filter-item" data-filter="game">Game</button>
+        <button class="filter-item" data-filter="webapp">Web App</button>
+        <button class="filter-item" data-filter="website">Website</button>
+        <button class="filter-item" data-filter="Certificates">Certificates</button>
+      </div>
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img style="object-fit: contain; width: 100%;height: 50vh;" src="images/1.Scientific Calculator.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Scientific Calculator</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">WebApp</span
+                ><br />
+                <a href="https://bazalsarfraz786.github.io/Scientific_Calculator/" target="_main" class="link">Use Calculator</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                style="object-fit: contain; width: 100%;height: 50vh;"
+                src="images/currency.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Currency Converter</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">WebApp</span
+                ><br />
+                <a href="https://bazalsarfraz786.github.io/Currency_Convertor/" target="_main" class="read-more-btn link">Convert Currency</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                style=" height: 50vh; width: 100%;"
+                src="images/Contact-Us page.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Contact-Us Page</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Web App</span
+                ><br />
+                <a href="https://bazalsarfraz786.github.io/Contact_Us-form/" target="_main" class="read-more-btn link">Visit Here</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img style="object-fit: contain; width: 100%; height: 50vh;" src="images/lang-translator.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Lang Translator</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">WebApp</span
+                ><br />
+                <a href="https://bazalsarfraz786.github.io/language_translator/" target="_main" class="read-more-btn link">Translate Language</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" >
+            <div class="card">
+              <img style="object-fit: contain; height: 50vh; width: 100%;" src="images/tictactoe.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Tic Tac Toe</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Game</span
+                ><br />
+                <a href="https://bazalsarfraz786.github.io/TicTacToe_Game/" target="_main" class="read-more-btn link">Play Game</a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" >
+            <div class="card">
+              <img style=" height: 50vh; width: 100%;" src="images/Resume Generator.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Resume Generator</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Website</span
+                ><br />
+                <a href="https://bazalsarfraz786.github.io/Resume_Generator/" target="_main" class="read-more-btn link">Generate Resume</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" >
+            <div class="card">
+              <img style="object-fit: fill; width: 100%;height: 50vh;" src="images/Amazaon Clone.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Amazon Clone</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Website</span
+                ><br />
+                <a href="https://bazalsarfraz786.github.io/Amazon_Clone/" target="_blank" class="link">Visit Here</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" >
+            <div class="card">
+              <img style="object-fit: fill; width: 100%;height: 50vh;" src="images/login-signup page.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Login-Signup</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Website</span
+                ><br />
+                <a href="https://bazalsarfraz786.github.io/Login_Signup_page/" target="_main" class="link">Visit Here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4 px-4">
+          <div class="post col-md-4 Certificates all col-10 mt-3 mt-md-0" ">
+            <div class="card">
+              <img style="object-fit: fill; width: 100%;height: 50vh;" src="images/resume.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">My Resume</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Resume</span
+                ><br />
+                <a href="https://bazalsarfraz786.github.io/Professional_Resume/" target="_main" class="link">Visit Here</a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="post col-md-4 Certificates all col-10 mt-3 mt-md-0" >
+            <div class="card">
+              <img style="object-fit: fill; width: 100%;height: 50vh;" src="images/DLD Certificate.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">DLD Certificate</h4>
+                <span class="badge bg-secondary badge-pill">Picture</span>
+                <span class="badge bg-secondary badge-pill mb-2">Certificates</span>
+                <br />
+                <a href="DLD.html" target="_main" class="link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 Certificates all col-10 mt-3 mt-md-0" >
+            <div class="card">
+              <img style="object-fit: fill; width: 100%;height: 50vh;" src="images/certificare.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Arbisoft Certificate</h4>
+                <span class="badge bg-secondary badge-pill">Picture</span>
+                <span class="badge bg-secondary badge-pill mb-2">Certificates</span>
+                <br />
+                <a href="Arbisoft.html" target="_main" class="link">Read More</a>
+              </div>
+            </div>
+          </div>      
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends here -->
+
+    <!-- testimonial section starts  -->
+    <section class="testimonial mt-5 pt-5" id="testimonial">
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 col-10" data-aos="slide-right">
+          <img src="images/tastimonials-img.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+          <div class="heading">
+            <small>Testimonials</small>
+            <h3>Happy Clients Feedback</h3>
+            <!-- here we will use carousel element from bootstrap -->
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Working with <b>Bazal Sarfraz</b> was a fantastic experience. Their attention to detail, clear communication, and technical expertise brought our vision to life. The website not only looks stunning but also performs flawlessly across all devices. I highly recommend them for any web development project.
+                      </p>
+                      <h4>Kevin Andrew</h4>
+                      <small class="fs-6 text-muted">CEO of Company</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        We needed a modern, responsive website to represent our brand, and [Your Name] delivered beyond expectations. From design to deployment, everything was handled professionally and efficiently. Their skills in web development truly stand out, and we’ve already seen an improvement in user engagement.
+                      </p>
+                      <h4>Kevin Andrew</h4>
+                      <small class="fs-6 text-muted">CEO of Company</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        I was impressed with the level of professionalism and creativity that <b>Bazal Sarfraz</b> brought to our project. They took the time to understand our needs and provided valuable insights throughout the process. The end result is a website that not only looks great but also functions seamlessly. I would highly recommend their services to anyone looking for a talented web developer.
+                      </p>
+                      <h4>Kevin Andrew</h4>
+                      <small class="fs-6 text-muted">CEO of Company</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="nextprev-btn rounded-pill prev-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <i class="bi bi-arrow-left-circle-fill prev"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="nextprev-btn rounded-pill next-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <i class="bi bi-arrow-right-circle-fill next"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial ends here -->
+
+    <!-- blog section starts -->
+    <section class="blog mt-5 pb-5" id="blog">
+      <div class="heading text-center pt-5">
+        <small>Latest News</small>
+        <h3>Blog & Articles</h3>
+      </div>
+      <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+        <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+          <div class="card">
+            <img
+              src="images/blog 1.png"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>By Bazal Sarfraz</small
+              ><span class="ms-3">Sep 5,2024</span>
+              <h4 class="card-title">
+                <a href="https://medium.com/@bazalsarfraz/what-do-you-know-about-bazal-sarfraz-f60fc4d5123e" target="_main">What do you know about Bazal Sarfraz?</a>
+              </h4>
+              <p class="text-muted">
+                Read the article to know about me. I am a Front-End Web Developer who builds responsive, user-friendly websites using HTML, CSS, and JavaScript.
+                I focus on clean code and modern design to create seamless digital experiences.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+          <div class="card">
+            <img
+              src="images/blog 2.jpg"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>By Bazal Sarfraz</small
+              ><span class="ms-3">APR 25,2025</span>
+              <h4 class="card-title">
+                <a href="https://bazalsarfraz.medium.com/web-development-trends-for-2024-5071606078db" target="_main">Web Development Trends For 2024</a>
+              </h4>
+              <p class="text-muted">
+                Read the article to know about the latest trends in web development for 2024. Stay ahead of the curve with the latest technologies and practices that are shaping the future of web development.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+          <div class="card">
+            <img
+              style="object-fit: cover; width: 100%; height: 40vh;"
+              src="images/blog 3.webp"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>By Bazal Sarfraz</small
+              ><span class="ms-3">Apr 25,2025</span>
+              <h4 class="card-title">
+                <a href="https://bazalsarfraz.medium.com/embracing-the-future-the-rise-of-ai-in-web-development-be3ecc2834d3" target="_main">Embracing the Future: The Rise of AI in Web Development</a>
+              </h4>
+              <p class="text-muted">
+                Read the article to know about the impact of AI on web development. Explore how AI is transforming the way we build and interact with websites, enhancing user experiences and streamlining development processes.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal3">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- here we will make modals if Read more link is clicked the modal will popup -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/blog 1.png" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>By Bazal Sarfraz</small
+                    ><span class="text-muted ms-2">Sep 5,2024</span>
+                  <h4 class="card-title mt-3">What do you know about Bazal Sarfraz?</h4>
+                  <div class="social-links mt-4">
+                      <button onclick="window.location.href='https://bazalsarfraz.medium.com/', '_blank'" class="rounded-pill medium">
+                        <i class="bi bi-medium"></i>
+                      </button>
+                      <button onclick="window.location.href='https://wa.me/+923071294031', '_blank'"  class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button onclick="window.location.href='https://github.com/bazalsarfraz786', '_blank'"  class="rounded-pill github">
+                        <i class="bi bi-github"></i>
+                      </button>
+                      <button onclick="window.location.href='https://www.facebook.com/share/169GYSzEdd/', '_blank'" class="rounded-pill facebook">
+                        <i class="bi bi-facebook"></i>
+                      </button>
+                  </div>
+                  <p class="text-muted mt-3">I'm Bazal Sarfraz, a 20-year-old software engineering student at the Islamia University of Bahawalpur and a passionate front-end developer. I’ve honed my skills in HTML, CSS, and JavaScript through projects and my work at Enigmatix Software House. Balancing studies and professional growth has been a rewarding challenge. I'm eager to keep learning, building, and sharing my journey through platforms like LinkedIn and Medium.</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/blog 2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>By Bazal Sarfraz</small
+                    ><span class="text-muted ms-2 ">Apr 25,2025</span>
+                  <h4 class="card-title mt-3">Web Development Trends For 2024</h4>
+                  <div class="social-links mt-4">
+                      <button onclick="window.location.href='https://bazalsarfraz.medium.com/', '_blank'" class="rounded-pill medium">
+                        <i class="bi bi-medium"></i>
+                      </button>
+                      <button onclick="window.location.href='https://wa.me/+923071294031', '_blank'" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button onclick="window.location.href='https://github.com/bazalsarfraz786', '_blank'" class="rounded-pill github">
+                        <i class="bi bi-github"></i>
+                      </button>
+                      <button onclick="window.location.href='https://www.facebook.com/share/169GYSzEdd/', '_blank'" class="rounded-pill facebook">
+                        <i class="bi bi-facebook"></i>
+                      </button>
+                  </div>
+                  <p class="text-muted mt-3">In 2024, web development is being reshaped by AI, ML, and evolving technologies like serverless computing and edge architecture. Languages like Rust, JavaScript, and Python remain in demand, supported by powerful frameworks such as Django and Node.js. AI is revolutionizing both development workflows and user experiences, especially in platforms like WordPress. Staying updated with these trends is key to staying competitive in the fast-paced digital world.</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/blog 3.webp" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>By Bazal Sarfraz</small
+                    ><span class="text-muted ms-2 ">Apr 25,2025</span>
+                  <h4 class="card-title mt-3">Embracing the Future: The Rise of AI in Web Development</h4>
+                  <div class="social-links mt-4">
+                      <button onclick="window.location.href='https://bazalsarfraz.medium.com/', '_blank'" class="rounded-pill medium">
+                        <i class="bi bi-medium"></i>
+                      </button>
+                      <button onclick="window.location.href='https://wa.me/+923071294031', '_blank'" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button onclick="window.location.href='https://github.com/bazalsarfraz786', '_blank'" class="rounded-pill github">
+                        <i class="bi bi-github"></i>
+                      </button>
+                      <button onclick="window.location.href='https://www.facebook.com/share/169GYSzEdd/', '_blank'" class="rounded-pill facebook">
+                        <i class="bi bi-facebook"></i>
+                      </button>
+                  </div>
+                  <p class="text-muted mt-3">AI is transforming web development by automating tasks like coding, testing, and content management, while enhancing user experiences through personalization and intelligent chatbots. It's being used in real-world applications such as predictive maintenance, fraud detection, and smarter CMS platforms. Despite challenges around data privacy, the future of AI in web development is full of promise, offering developers powerful tools to build smarter, more efficient applications.</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section ends here -->
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <a href="https://maps.app.goo.gl/2xjAzj8BAiq5swNNA" target="_main"><i class="bi bi-geo-alt-fill"></i></a>
+            </div>
+            <div class="col-11">
+              <p id="same"><a style="text-decoration: none;" href="https://maps.app.goo.gl/2xjAzj8BAiq5swNNA" target="_main">Bahawalpur City Tehsil, 63100, Pakistan</a></p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <a href="https://wa.me/+923071294031" target="_main"><i class="bi bi-telephone-fill"></i></a>
+            </div>
+            <div class="col-11">
+              <p id="same"><a style="text-decoration: none;" href="https://wa.me/+923071294031" target="_main">+92 3071294031</a></p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <a href="mailto:bazalsarfraz7863@gmail.com" target="_main"><i class="bi bi-send-fill"></i></a>
+            </div>
+            <div class="col-11">
+              <p id="same"><a style="text-decoration: none;" href="mailto:bazalsarfraz7863@gmail.com" target="_main">bazalsarfraz7863@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <a href="https://github.com/bazalsarfraz786" target="_main"><i class="bi bi-github"></i></a>
+            </div>
+            <div class="col-11">
+              <p id="same"><a style="text-decoration: none; " href="https://github.com/bazalsarfraz786" target="_main">github.com/bazalsarfraz786</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+
+          <form action="" class="contact__form" id="form">
+            <div class="contact-form">
+              <div class="mb-3">
+                
+                <input
+                  type="text"
+                  class="form-control"
+                  id="user_name"
+                  placeholder="Name"
+                  name="user_name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                
+                <input
+                  type="email"
+                  class="form-control"
+                  id="user_email"
+                  placeholder="E-mail"
+                  name="user_email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                
+                <input
+                  type="text"
+                  class="form-control"
+                  id="user_phone"
+                  placeholder="Mobile No."
+                  name="user_phone"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                
+                <textarea
+                  class="form-control"
+                  id="user_message"
+                  placeholder="Message"
+                  name="user_message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <p class="contact__message" id="contact-message">Message</p>
+              
+            </div>
+            <button type="submit" id="button" value="Send Email" onclick="sendMail()" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Submit
+            </button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#blog">Blog</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button onclick="window.location.href='https://bazalsarfraz.medium.com/', '_blank'" class="rounded-pill medium">
+          <i class="bi bi-medium"></i>
+        </button>
+        <button onclick="window.location.href='https://wa.me/+923071294031', '_blank'" class="rounded-pill whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </button>
+        <button onclick="window.location.href='https://github.com/bazalsarfraz786', '_blank'" class="rounded-pill github">
+          <i class="bi bi-github"></i>
+        </button>
+        <button onclick="window.location.href='https://www.facebook.com/share/169GYSzEdd/', '_blank'" class="rounded-pill facebook">
+          <i class="bi bi-facebook"></i>
+        </button>
+        <button onclick="window.location.href='https://www.instagram.com/bazalsarfraz443?igsh=aDU1NmludWMza3Ny', '_blank'" class="rounded-pill instagram">
+          <i class="bi bi-instagram"></i>
+        </button>
+        <button onclick="window.location.href='https://x.com/bazal_sarfraz?t=IlMVipF1PYmFtQlwaUIjPQ&s=08', '_blank'" class="rounded-pill twitter">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+          </svg>
+          
+        </button>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>Copyright &copy; 2025 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- EMAIL JS  -->
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('t9Nx7rd2_9ll1DUyo')
+</script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="script.js"></script>
+    
+  </body>
+</html>
